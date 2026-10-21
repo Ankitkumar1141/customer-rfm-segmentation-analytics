@@ -1,0 +1,51 @@
+# Customer RFM Segmentation Analytics — .gitignore
+# Author: Ankit Kumar
+
+# ──────────────────────────────
+# Data files (too large for git)
+# ──────────────────────────────
+*.csv
+*.xlsx
+*.xls
+data/
+
+# ──────────────────────────────
+# Python
+# ──────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# ──────────────────────────────
+# Jupyter
+# ──────────────────────────────
+.jupyter/
+*.ipynb
+
+# ──────────────────────────────
+# OS junk
+# ──────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ──────────────────────────────
+# IDE / Editor
+# ──────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ──────────────────────────────
+# Power BI (keep .pbix in repo)
+# ──────────────────────────────
+# Uncomment below to exclude Power BI file (it's binary & large)
+# *.pbix
